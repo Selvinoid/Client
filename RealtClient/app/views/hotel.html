@@ -1,0 +1,226 @@
+﻿
+<style>
+    .fullscreen .modal-dialog {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        padding: 0;
+        color: #333;
+    }
+
+    .fullscreen .modal-content {
+        height: 100%;
+        min-height: 100%;
+        border-radius: 0;
+        color: #333;
+        background: rgba(255, 255, 255, 0.97);
+        overflow: auto;
+    }
+
+    .fullscreen .modal-body ul {
+        padding: 100px 0 0 0;
+    }
+
+    .fullscreen .modal-body li {
+        padding: 10px 0 10px 0;
+    }
+
+    .fullscreen .modal-body a {
+        color: #333;
+        font-size: 300%;
+    }
+
+    @media (max-width: 480px) {
+        .fullscreen .modal-body ul {
+            padding: 30px 0 0 0;
+            overflow: auto;
+        }
+
+        .fullscreen .modal-body li {
+            padding: 4px 0 4px 0;
+        }
+
+        .fullscreen .modal-body a {
+            color: #333;
+            font-size: 200%;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+</style>
+<div class="well bs-component" ng-init="getHotels()">
+    <div class="row" style="padding-top: 70px;">
+        <div class="row">
+            <div class="col-md-2">
+                <h4>Количество звёзд</h4>
+            </div>
+            <div class="col-md-10">
+                <div class="btn-group">
+                    <a href="javascript:void(0)" class="btn btn-raised" ng-click="setStars(1)">1<span class="rate fa-star fa"></span></a>
+                    <a href="javascript:void(0)" class="btn btn-raised" ng-click="setStars(2)">2<span class="rate fa-star fa"></span></a>
+                    <a href="javascript:void(0)" class="btn btn-raised" ng-click="setStars(3)">3<span class="rate fa-star fa"></span></a>
+                    <a href="javascript:void(0)" class="btn btn-raised" ng-click="setStars(4)">4<span class="rate fa-star fa"></span></a>
+                    <a href="javascript:void(0)" class="btn btn-raised" ng-click="setStars(5)">5<span class="rate fa-star fa"></span></a>
+                    <a href="javascript:void(0)" class="btn btn-raised" ng-click="setStars('')">Все отели</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <h5>Название отеля</h5>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="inputEmail" placeholder="Search..." ng-model="query">
+            </div>
+        </div>
+    </div>
+    <div class="row" style="padding-top: 40px;">
+
+        <div class="col-md-4 col-lg-4 col-xs-12 col-md-12" ng-repeat="hotel in hotels  | filter: {Name: query, Stars: search.Stars}">
+            <div class="col-md-6">
+                <h1 class="panel-title">{{hotel.Name}}</h1>
+            </div>
+            <div class="col-md-offset-2 col-md-4"><span class="rate fa-star fa" ng-repeat="n in range(hotel.Stars)"></span></div>
+            <div class="panel-body">
+                <p ng-cloak>{{hotel.Adress}}</p>
+                <p ng-cloak> {{hotel.Description}}</p>
+                <img ng-src="{{hotel.Images[0]}}" class="img-responsive " />
+                <a href="javascript:void(0)" class="btn btn-default btn-lg btn-block" ng-click="hotelDetails(hotel)" style="color: white !important;">
+                    Подробности
+                    <div class="ripple-container"></div>
+                </a>
+                <a href="javascript:void(0)" class="btn btn-danger btn-lg btn-block" ng-click="hotelOrder(hotel)" style="color: white !important;">
+                    Бронировать
+                    <div class="ripple-container"></div>
+                </a>
+                <!--<div class="text-center">
+                    <a ng-click="$storage.card.push(house)" href="javascript:void(0)" class="btn btn-raised btn-danger ">
+                        <i class="material-icons">add_shopping_cart</i>
+                        <div class="ripple-container"></div>
+                    </a>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade fullscreen" id="details" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Детали отеля</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <h1 class="text-center">{{currentHotel.Name}}</h1>
+                        <div class="col-md-3" ng-repeat="image in currentHotel.Images">
+                            <img ng-src="{{image}}" class="img-responsive " />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h4 class="text-center">
+                            <strong> Условия:</strong>
+                        </h4>
+                        <div ng-repeat="condition in currentHotel.Conditions">
+                            <div class="col-md-3" ng-repeat="img in condition.Images">
+                                <a href="" class="portfolio-box">
+                                    <img ng-src="{{img}}" class="img-responsive" alt="">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="project-category text-faded">
+                                                {{condition.Name}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h4 class="text-center">
+                            <strong> Номера:</strong>
+                        </h4>
+                        <div ng-repeat="room in currentHotel.Rooms">
+                            <div class="col-md-3" ng-repeat="img in room.Images">
+                                <a href="" class="portfolio-box">
+                                    <img ng-src="{{img}}" class="img-responsive" alt="">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="project-category text-faded">
+                                                <p>Номер:{{room.Number}}</p>
+                                                <p>Цена за сутки:{{room.Price}}$</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h4 class="text-center">
+                            <strong> Адресс:</strong>
+                        </h4>
+                        <p class="text-center">
+                            <strong>{{currentHotel.Adress}}</strong>
+                        </p>
+
+                    </div>
+                    <div class="row">
+                        <h4 class="text-center">
+                            <strong> Описание:</strong>
+                        </h4>
+                        <p class="text-center">
+                            <strong>{{currentHotel.Description}}</strong>
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hotelOrder" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="z-index: 99999999 !important;">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">Забронировать отель</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <h4 class="text-center">{{currentHotel.Name}} отель</h4>
+                        <div class="form-group text-center">
+                            <label class="control-label">Дата заселения</label>
+                            <input type="date" id="ArrivalDateOrder" ng-model="arrivalDate" required=""/>
+                        </div>
+                        <div class="form-group text-center">
+                            <label class="control-label">Дата высления </label>
+                            <input type="date" id="LeaveDateOrder" ng-model="leaveDate" required=""/>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                    <button type="submit" class="btn btn-primary" ng-click="saveOrder(arrivalDate,leaveDate,countOfDays)">Забронировать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#ArrivalDate').bootstrapMaterialDatePicker({ weekStart: 0, time: false });
+        $('#LeaveDate').bootstrapMaterialDatePicker({ weekStart: 0, time: false });
+        $('#ArrivalDateOrder').bootstrapMaterialDatePicker({ weekStart: 0, time: false });
+        $('#LeaveDateOrder').bootstrapMaterialDatePicker({ weekStart: 0, time: false });
+    });
+</script>
+<script type="text/javascript" src="https://rawgit.com/FezVrasta/bootstrap-material-design/master/dist/js/material.min.js"></script>
+<script type="text/javascript" src="http://momentjs.com/downloads/moment-with-locales.min.js"></script>
+<script src="~/scripts/bootstrap-material-datetimepicker.js"></script>

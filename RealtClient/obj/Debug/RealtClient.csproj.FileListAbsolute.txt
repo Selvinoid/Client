@@ -1,0 +1,132 @@
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\ApplicationInsights.config
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\roslyn\csc.exe
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\roslyn\System.Collections.Immutable.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\roslyn\vbc.exe
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\roslyn\VBCSCompiler.exe
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\roslyn\VBCSCompiler.exe.config
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\RealtClient.dll.config
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\RealtClient.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\RealtClient.pdb
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.AI.Web.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.AI.WindowsServer.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.ApplicationInsights.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.AI.Web.xml
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.AI.WindowsServer.xml
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.ApplicationInsights.xml
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\obj\Debug\RealtClient.csprojResolveAssemblyReference.cache
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\obj\Debug\RealtClient.dll
+c:\users\dimon\documents\visual studio 2015\Projects\RealtClient\RealtClient\obj\Debug\RealtClient.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\ApplicationInsights.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\roslyn\csc.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\roslyn\vbc.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\roslyn\VBCSCompiler.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\RealtClient.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\RealtClient.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\RealtClient.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.Web.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.ApplicationInsights.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.Web.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.ApplicationInsights.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\obj\Debug\RealtClient.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\obj\Debug\RealtClient.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\HotelClient\RealtClient\obj\Debug\RealtClient.pdb
+D:\Дауд\HotelClient\RealtClient\bin\ApplicationInsights.config
+D:\Дауд\HotelClient\RealtClient\bin\roslyn\csc.exe
+D:\Дауд\HotelClient\RealtClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Дауд\HotelClient\RealtClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Дауд\HotelClient\RealtClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Дауд\HotelClient\RealtClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Дауд\HotelClient\RealtClient\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Дауд\HotelClient\RealtClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Дауд\HotelClient\RealtClient\bin\roslyn\System.Collections.Immutable.dll
+D:\Дауд\HotelClient\RealtClient\bin\roslyn\System.Reflection.Metadata.dll
+D:\Дауд\HotelClient\RealtClient\bin\roslyn\vbc.exe
+D:\Дауд\HotelClient\RealtClient\bin\roslyn\VBCSCompiler.exe
+D:\Дауд\HotelClient\RealtClient\bin\roslyn\VBCSCompiler.exe.config
+D:\Дауд\HotelClient\RealtClient\bin\RealtClient.dll.config
+D:\Дауд\HotelClient\RealtClient\bin\RealtClient.dll
+D:\Дауд\HotelClient\RealtClient\bin\RealtClient.pdb
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.DependencyCollector.dll
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.Web.dll
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.WindowsServer.dll
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.ApplicationInsights.dll
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.DependencyCollector.xml
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.Web.xml
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.AI.WindowsServer.xml
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.ApplicationInsights.xml
+D:\Дауд\HotelClient\RealtClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Дауд\HotelClient\RealtClient\obj\Debug\RealtClient.csprojResolveAssemblyReference.cache
+D:\Дауд\HotelClient\RealtClient\obj\Debug\RealtClient.dll
+D:\Дауд\HotelClient\RealtClient\obj\Debug\RealtClient.pdb
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\ApplicationInsights.config
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\roslyn\csc.exe
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\roslyn\System.Collections.Immutable.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\roslyn\System.Reflection.Metadata.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\roslyn\vbc.exe
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\roslyn\VBCSCompiler.exe
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\roslyn\VBCSCompiler.exe.config
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\RealtClient.dll.config
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\RealtClient.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\RealtClient.pdb
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.AI.DependencyCollector.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.AI.Web.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.AI.WindowsServer.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.ApplicationInsights.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.AI.DependencyCollector.xml
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.AI.Web.xml
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.AI.WindowsServer.xml
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.ApplicationInsights.xml
+D:\Дауд\хуйня\HotelClient\RealtClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Дауд\хуйня\HotelClient\RealtClient\obj\Debug\RealtClient.csprojResolveAssemblyReference.cache
+D:\Дауд\хуйня\HotelClient\RealtClient\obj\Debug\RealtClient.dll
+D:\Дауд\хуйня\HotelClient\RealtClient\obj\Debug\RealtClient.pdb

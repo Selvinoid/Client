@@ -1,0 +1,31 @@
+﻿<div class="well bs-component">
+    <div class="row"  style="padding-top: 50px;">
+        <h3 class="text-center">Ваши заказы</h3>
+    </div>
+    <div class="row" style="padding-top: 10px;">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Отель</th>
+                    <th>Номер</th>
+                    <th>Количество дней</th>
+                    <th>Дата прибытия</th>
+                    <th>Дата выселения</th>
+                    <th>Стоимость</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="order in orders">
+                    <td>{{order.hotelName}}</td>
+                    <td>{{order.roomNumber}}</td>
+                    <td>{{order.countOfDays}}</td>
+                    <td>{{order.arrivalDate}}</td>
+                    <td>{{order.leaveDate}}</td>
+                    <td>{{order.totalPrice}}<a href="javascript:void(0)"><i class="material-icons">monetization_on</i></a></td>
+                    <td><a href="#/card" class="btn btn-block btn-lg btn-danger" ng-click="removeOrder(order)">Снять бронь</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
